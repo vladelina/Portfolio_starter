@@ -40,6 +40,13 @@
         }
     }
     .portfolio {
+      &__item {
+        img {
+          height: 280px;
+          width: 280px;
+          object-fit: cover;
+        }
+      }
         &__wrapper {
             grid-template-columns: repeat(auto-fit, 280px);
             grid-auto-rows: 280px;
